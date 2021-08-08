@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Markdown_Hill/static/css/main.579cc469.chunk.css",
+    "main.js": "/Markdown_Hill/static/js/main.c9e35801.chunk.js",
+    "main.js.map": "/Markdown_Hill/static/js/main.c9e35801.chunk.js.map",
+    "runtime-main.js": "/Markdown_Hill/static/js/runtime-main.f3678a15.js",
+    "runtime-main.js.map": "/Markdown_Hill/static/js/runtime-main.f3678a15.js.map",
+    "static/css/2.8de016ad.chunk.css": "/Markdown_Hill/static/css/2.8de016ad.chunk.css",
+    "static/js/2.74b7bde0.chunk.js": "/Markdown_Hill/static/js/2.74b7bde0.chunk.js",
+    "static/js/2.74b7bde0.chunk.js.map": "/Markdown_Hill/static/js/2.74b7bde0.chunk.js.map",
+    "index.html": "/Markdown_Hill/index.html",
+    "static/css/2.8de016ad.chunk.css.map": "/Markdown_Hill/static/css/2.8de016ad.chunk.css.map",
+    "static/css/main.579cc469.chunk.css.map": "/Markdown_Hill/static/css/main.579cc469.chunk.css.map",
+    "static/js/2.74b7bde0.chunk.js.LICENSE.txt": "/Markdown_Hill/static/js/2.74b7bde0.chunk.js.LICENSE.txt",
+    "static/media/katex.min.css": "/Markdown_Hill/static/media/KaTeX_Typewriter-Regular.b6a56b14.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3678a15.js",
+    "static/css/2.8de016ad.chunk.css",
+    "static/js/2.74b7bde0.chunk.js",
+    "static/css/main.579cc469.chunk.css",
+    "static/js/main.c9e35801.chunk.js"
+  ]
+}
