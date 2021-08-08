@@ -49,7 +49,7 @@ export default function Speech() {
       </div>
       { openBox && <CheatSheetBox openBox={openBox} setOpenBox={setOpenBox} resetTranscript={resetTranscript} /> }
       <p>{transcript}</p>
-      { tip && <p><em>Say, "Oh yeah or Open Box" to Hill Chat.</em></p> }
+      { tip && <p><em>Say, "Oh yeah or Open the box or Its magic" to Hill Chat.</em></p> }
     </div>
   );
 };
