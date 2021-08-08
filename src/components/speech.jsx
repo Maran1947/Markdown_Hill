@@ -5,11 +5,10 @@ import CheatSheetBox from './cheatSheetBox'
 export default function Speech() {
 
   const [openBox, setOpenBox] = useState(false);
-  const [message, setMessage] = useState('')
   const [tip,setTip] = useState(true);
   const commands = [
     {
-      command: ['Oh yeah','open box'],
+      command: ['Oh yeah','open the box','Its magic'],
       callback: ({ command }) => {
         setTimeout(() => {
           setOpenBox(true)

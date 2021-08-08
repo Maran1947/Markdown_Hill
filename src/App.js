@@ -51,7 +51,7 @@ function App() {
 
   return (
     <EditorContext.Provider value={contextValue}>
-      <AppContainer>
+      <AppContainer className="app_container">
         <Title className="heading"> 🚵‍♀️ Markdown Hill 🚵‍♂️ </Title>
         <EditorContainer className="editor_container">
           <MarkedInput />

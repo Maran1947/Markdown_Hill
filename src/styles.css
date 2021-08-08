@@ -167,9 +167,14 @@ span {
 
   @media screen and (max-width: 768px) {
 
+    .app_container {
+        height: 1000px!important;
+    }
+
     .heading {
         font-size: 20px!important;
     }
+
 
     .editor_container {
       flex-direction: column;
@@ -183,7 +188,7 @@ span {
     .editor_container .markdown_input {
         width: 80%;
         height: 400px;
-        margin: 0px 28px 0px 28px;
+        margin: 10px;
     }
 
     .editor_container .output_area {
@@ -201,7 +206,7 @@ span {
         margin: 0;
     }
     .modal {
-        width: 50%;
+        width: 80%;
         height: 55%;
         display: flex;
         justify-content: center;

@@ -1,45 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import Modal from 'react-modal';
-import Loading from './Loading';
 import Element from './Element';
-const url = './cheatsheet.json';
+import data from '../cheatsheet';
 
 Modal.setAppElement('#root');
 const CheatSheetBox = ({openBox,setOpenBox, resetTranscript}) => {
 
     const [isModalOpen,setIsModalOpen] = useState(openBox);
-    const [loading, setLoading] = useState(false);
-    const [cheatSheetData, setCheatSheetData] = useState([]);
 
     const closeModal = () => {
         setIsModalOpen(false);
         setOpenBox(false);
         resetTranscript();
-    }
-
-    const fetchCheatSheet = async () => {
-        setLoading(true);
-        try {
-            const response = await fetch(url);
-            const cheatSheets = await response.json();
-            setLoading(false);
-            setCheatSheetData(cheatSheets);
-        } catch (error) {
-            setLoading(false);
-            console.log(error);
-        } 
-    };
-
-    useEffect(() => {
-        fetchCheatSheet();
-    }, []);
-
-    if(loading) {
-        return (
-        <div>
-            <Loading />
-        </div>
-        );
     }
 
     return (
@@ -56,7 +28,7 @@ const CheatSheetBox = ({openBox,setOpenBox, resetTranscript}) => {
                     </div>
                     <div className="modal_content">
                         {
-                            cheatSheetData.map((ele) => {
+                            data.map((ele) => {
                                 return <Element key={ele.id} {...ele}/>
                             })
                         }
